@@ -1,0 +1,45 @@
+[
+    {
+        "artists":{
+            "name": "Hip-hop Index",
+            "id": "1"
+        },
+        "genre":{
+            "name":"genre",
+            "id":"2"
+        },
+
+        "amount":{
+            "price": "$64000"
+        },
+        "genres":{
+            "genre": "GENRES",
+            "labels": "LABELS",
+            "groups": "GROUPS",
+            "artwork": "ARTISTS"
+        },
+        "text":{
+            "h1": " Index Spotlight",
+            "h3": "Invest in music market indexes to get exposure to sectors wiht artist prices determining the price of index"
+        },
+        
+        "homepage":{
+         "chart": "CHART",
+         "swap": "SWAP",
+         "collab": "COLLAB",
+         "drops": "DROPS",
+         "collections": "COLLECTIONS",
+         "giveaways": "GIVEAWAYS"
+        },
+        
+        "button":{
+            "btnless": "<",
+            "btngreater": ">"
+        }
+        
+        
+
+    }
+]
+
+

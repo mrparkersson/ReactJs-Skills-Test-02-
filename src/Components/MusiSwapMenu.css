@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cardgroup{
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 1rem;
+}
+
+.musiswapmenu{
+ background: linear-gradient(73.25deg, #000000 7.24%, #4D4B4B 108.45%);
+color: white;
+width: 90%;
+max-width: 43rem;
+padding: 1rem;
+border-radius: 12px;
+margin: 3rem auto;
+}
+
+.chartimg{
+    width: 20px;
+}
+
+.listbutton{
+    font: inherit;
+    background: linear-gradient(73.25deg, #000000 7.24%, #4D4B4B 108.45%);
+    color: white;
+    border: 1px solid #2b2a2e;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.itemsmenu{
+    display: flex;
+    flex-direction: column;
+    font: inherit;
+    list-style: none;
+
+}
+
+.listbutton:hover{
+    background: #00CC9B;
+    color: white;
+
+}
+
+img{
+    width: 100px;
+    left: 226px;
+    top: 1263px;
+    
+}
+
+
