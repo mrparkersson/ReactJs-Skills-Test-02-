@@ -25,7 +25,7 @@ const MusiSwapMenu =()=>{
    {something.map(x =>  <div className='itemsmenu'>
       <Link  to="/musiswapchart" className="listbutton"><img  alt="musi swap images" src={chart} className="chartimg"/>{x.homepage.chart}</Link>
       <Link className="listbutton"><img  alt="musi swap images" src={swap} className="chartimg"/> {x.homepage.swap}</Link>
-      <Link className="listbutton"><img  alt="musi swap images" src={collab} className="chartimg"/>{x.homepage.collab}</Link>
+      <Link to="/collabmining" className="listbutton"><img  alt="musi swap images" src={collab} className="chartimg"/>{x.homepage.collab}</Link>
       <Link className="listbutton"><img  alt="musi swap images" src={drops} className="chartimg"/> {x.homepage.drops}</Link>
       <Link className="listbutton"><img alt="musi swap images"  src={collections} className="chartimg"/>{x.homepage.collections}</Link>
       <Link className="listbutton"><img  alt="musi swap images" src={giveways} className="chartimg"/>{x.homepage.giveaways} </Link>

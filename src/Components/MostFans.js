@@ -31,26 +31,26 @@ const MostFans = () =>{
   <tr>
     <th><img src={chance} alt="hiphopimage" className="mostfans  dababy"/></th>
     <th><h3>Chance the Rapper</h3></th>
-    <th>{recievedData.genre.name}</th>
-    <th>{recievedData.amount.price}</th>
+    <th><h2>{recievedData.genre.name}</h2></th>
+    <th><h2 className="mostprice">{recievedData.amount.price}</h2></th>
   </tr>
   <tr>
   <th><img src={soulja} alt="hiphopimage" className="mostfans soulja"/></th>
     <th><h3>Chris Brown</h3></th>
-    <th>{recievedData.genre.name}</th>
-    <th>{recievedData.amount.price}</th>
+    <th><h2>{recievedData.genre.name}</h2></th>
+    <th><h2 className="mostprice">{recievedData.amount.price}</h2></th>
   </tr>
   <tr>
   <th><img src={reed} alt="hiphopimage" className=" mostfans kanyewest"/></th>
     <th><h3>03 Greedo</h3></th>
-    <th>{recievedData.genre.name}</th>
-    <th>{recievedData.amount.price}</th>
+    <th><h2>{recievedData.genre.name}</h2></th>
+    <th><h2 className="mostprice">{recievedData.amount.price}</h2></th>
   </tr>
   <tr>
   <th><img src={kendrick} alt="hiphopimage" className=" mostfans kendrick" /></th>
     <th><h3>Kendrick Lamar</h3></th>
-    <th>{recievedData.genre.name}</th>
-    <th>{recievedData.amount.price}</th>
+    <th><h2>{recievedData.genre.name}</h2></th>
+    <th><h2 className="mostprice">{recievedData.amount.price}</h2></th>
   </tr>
 </table>
             )

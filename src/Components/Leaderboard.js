@@ -30,26 +30,26 @@ const ChartMenu = () =>{
   <tr>
     <th><img src={dababy} alt="hiphopimage" className="dababy"/></th>
     <th><h3>DaBabY</h3></th>
-    <th>{recievedData.genre.name}</th>
-    <th>{recievedData.amount.price}</th>
+    <th><h2>{recievedData.genre.name}</h2></th>
+    <th><h2 className="leaderprice">{recievedData.amount.price}</h2></th>
   </tr>
   <tr>
   <th><img src={chrisbrown} alt="hiphopimage" className="chrisbronw"/></th>
     <th><h3>Chris Brown</h3></th>
     <th><h2>{recievedData.genre.name}</h2></th>
-    <th><h2>{recievedData.amount.price}</h2></th>
+    <th><h2 className="leaderprice">{recievedData.amount.price}</h2></th>
   </tr>
   <tr>
   <th><img src={kanyewest} alt="hiphopimage" className="kanyewest"/></th>
     <th><h3>Kanye West</h3></th>
-    <th>{recievedData.genre.name}</th>
-    <th><h2></h2>{recievedData.amount.price}</th>
+    <th><h2>{recievedData.genre.name}</h2></th>
+    <th><h2 className="leaderprice">{recievedData.amount.price}</h2></th>
   </tr>
   <tr>
   <th><img src={kendrick} alt="hiphopimage" className="kendrick" /></th>
     <th><h3>Kendrick Lamar</h3></th>
     <th><h2>{recievedData.genre.name}</h2></th>
-    <th><h2>{recievedData.amount.price}</h2></th>
+    <th><h2 className="leaderprice">{recievedData.amount.price}</h2></th>
   </tr>
 </table>
             )

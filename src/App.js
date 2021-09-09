@@ -3,6 +3,7 @@ import ChartMenu from "./Components/ChartMenu";
 import {Route, Switch} from 'react-router-dom'
 import Leaderboard from "./Components/Leaderboard";
 import MostFans from "./Components/MostFans";
+import CollabMining from "./Components/CollabMining";
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
       <Route path='/mostfans'>
         <MostFans/>
       </Route>
-
+      <Route path="/collabmining">
+        <CollabMining/>
+      </Route>
     </Switch>
   );
 }
