@@ -43,13 +43,13 @@ const ChartMenu = () =>{
   <th><img src={kanyewest} alt="hiphopimage" className="kanyewest"/></th>
     <th><h3>Kanye West</h3></th>
     <th>{recievedData.genre.name}</th>
-    <th>{recievedData.amount.price}</th>
+    <th><h2></h2>{recievedData.amount.price}</th>
   </tr>
   <tr>
   <th><img src={kendrick} alt="hiphopimage" className="kendrick" /></th>
     <th><h3>Kendrick Lamar</h3></th>
-    <th>{recievedData.genre.name}</th>
-    <th>{recievedData.amount.price}</th>
+    <th><h2>{recievedData.genre.name}</h2></th>
+    <th><h2>{recievedData.amount.price}</h2></th>
   </tr>
 </table>
             )
