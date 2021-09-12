@@ -1,7 +1,7 @@
 import "./ChartMenu.css";
 import { Fragment } from "react/cjs/react.production.min";
 import { CardGroup, Card, Dropdown } from "react-bootstrap";
-import data from "../JSONFILES/artists.json";
+import data from "../JSONFILES/myDummyData.json";
 import { Link } from "react-router-dom";
 import dababy from "../Images/dababy.svg";
 import chrisbrown from "../Images/chrisbrown.svg";
