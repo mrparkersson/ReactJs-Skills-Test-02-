@@ -35,9 +35,9 @@
         "button":{
             "btnless": "<",
             "btngreater": ">"
-        }
-        
-        
+        },
+        "leaderboard": "LEADERBOARD",
+        "betonartist": "bet on an artist"
 
     }
 ]
